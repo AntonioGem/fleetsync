@@ -40,8 +40,9 @@ export default {
   methods: {
     async fetchData() {
       try {
+        const apiUrl = process.env.VUE_APP_API_URL;
         //const response = await fetch('http://ssusa.zapto.org:3001/availability');
-        const response = await fetch('http://localhost:3001/availability');
+        const response = await fetch(`${apiUrl}/availability`);
         const token = localStorage.getItem('token');
         console.log(token);
         console.log('dashboardfleetsync');

@@ -11,7 +11,8 @@
     <p><strong>Contacto:</strong> {{ unidad.CONTACTO }}</p>
     <p><strong>Responsable:</strong> {{ unidad.RESPONSABLE }}</p>
     <p><strong>Fecha Compromiso:</strong> {{ unidad.FECHA_VENCIMIENTO }}</p>
-    <p><strong>Horas:</strong> {{ unidad.HORAS }}</p>
+    <p><strong>Fecha de Inicio:</strong> {{ unidad.FECHA_INICIO }}</p>
+    <p><strong>Tiempo en operacion:</strong> {{ unidad.HORAS }}</p>
     <p><strong>Cliente:</strong> {{ unidad.CLIENTE }}</p>
     <p><strong>Asunto OT:</strong> {{ unidad.ASUNTO }}</p>
     <p><strong>Etapa OT:</strong> {{ unidad.ETAPA }}</p>
